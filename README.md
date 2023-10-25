@@ -25,9 +25,12 @@ We recommend deploying the model on Hugging Face's Model Hub. Here are the steps
 2. **Create an Inference API:**
    - Go to the "Inference API" tab in your Hugging Face account.
    - Configure the API with the relevant details (e.g., environment, GPU, CPU).
-   - By now You would have ML endpoint that can be used in your front end.
+   - By now, you should have an ML endpoint that can be used in your front end.
 
-3. **Usage from the Front End:**
+3. **Obtain an Authentication Token from Hugging Face:**
+   - To secure your model, get an authentication token from Hugging Face for your API. Refer to [Hugging Face Authentication](https://huggingface.co/docs/api-inference/quicktour#get-your-api-token) for details on how to obtain and use the token.
+
+4. **Usage from the Front End:**
    - To use the API endpoint in your web application, refer to the front-end documentation:
      [front-end-emotion-detection](https://github.com/Psych-2-Go-Ai/front-end-emotion-detection)
 
