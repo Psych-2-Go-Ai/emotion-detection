@@ -19,7 +19,7 @@ We recommend deploying the model on Hugging Face's Model Hub. Here are the steps
 1. **Upload Your Model:**
    - Fork this repository and make your changes if necessary.
    - Commit your changes and push to your repository.
-   - Go to the Hugging Face Model Hub (https://huggingface.co/models) and click "New Model."
+   - Go to the [Hugging Face Model Hub](https://huggingface.co/models) and click "New Model."
    - Enter your repository's URL and details to create the model.
 
 2. **Create an Inference API:**
